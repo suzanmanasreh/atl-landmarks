@@ -12,7 +12,9 @@ export default function Home() {
       <Navbar />
       <main>
         <div className="m-4">
-          <h1 className="text-red-700 text-2xl font-bold">ATL Landmarks</h1>
+          <h1 className="text-stone-900 text-2xl font-bold">
+            Civil Rights Landmarks
+          </h1>
         </div>
       </main>
 
