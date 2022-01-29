@@ -1,5 +1,21 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Image from "next/image";
+
+const locations = [
+  {
+    id: 1,
+    name: "APEX Museum",
+    description: "enter description here",
+    picture: require("../public/locations/apex-museum.jpeg"),
+  },
+  {
+    id: 2,
+    name: "Center for Civil and Human Rights",
+    description: "enter description here",
+    picture: require("../public/locations/center-for-civil-and-human-rights.jpeg"),
+  },
+];
 
 export default function Home() {
   return (
@@ -27,7 +43,31 @@ export default function Home() {
         <div className="relative bg-red-800">
           <div className="w-full border-2 border-red-800"></div>
         </div>
-        <div></div>
+        <div className="mt-4">
+          {locations.map((place) => {
+            return (
+              <div key={place.id} className="md:flex mb-7 text-base">
+                <div className="mr-5">
+                  <Image
+                    src={place.picture}
+                    objectFit="cover"
+                    alt={place.name}
+                    width={250}
+                    height={150}
+                  />
+                </div>
+                <div>
+                  <p className="font-semibold text-xl text-stone-900">
+                    {place.name}
+                  </p>
+                  <p className="font-medium text-base text-stone-900">
+                    {place.description}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </main>
 
       <footer></footer>
