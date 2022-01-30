@@ -4,7 +4,7 @@ const locations = [
     name: "APEX Museum",
     website: "https://www.apexmuseum.org/",
     description:
-      "The African-American Panoramic Experience Museum (APEX) is a great place to learn the rich history of African Americans. The museum is situated in a 100 year-old-building built by African American masons. Visitors can explore historical artificats and and learn about significant contributions made by African American.",
+      "The African-American Panoramic Experience Museum (APEX) is a great place to learn the rich history of African Americans. The museum is situated in a 100 year-old-building built by African American masons. Visitors can explore historical artificats and and learn about significant contributions made by African Americans.",
     picture: require("../public/locations/apex-museum.jpeg"),
   },
   {
@@ -12,7 +12,7 @@ const locations = [
     name: "National Center for Civil and Human Rights",
     website: "https://www.civilandhumanrights.org/",
     description:
-      "This museum showcases various civil and human right movements around the world. There are several exhibitions, events, and hands-on activities which allow visitors to immerse themselves into important historical events.",
+      "This museum showcases various civil and human rights movements around the world. There are several exhibitions, events, and hands-on activities which allow visitors to immerse themselves into important historical events.",
     picture: require("../public/locations/center-for-civil-and-human-rights.jpeg"),
   },
   {
@@ -20,7 +20,7 @@ const locations = [
     name: "Martin Luther King, Jr. National Historical Park",
     website: "https://www.nps.gov/malu/index.htm",
     description:
-      "The historical park covers about 35 acres and comprises of many sites related to MLK. Some of which are his childhood home and the Ebenezer Baptist Church, where MLK was a co-pastor whith his father. Guest can walk down Freedom Road, explore the Visitors center, and be marveled by the Civil Rights Walk of Fame.",
+      "The historical park covers about 35 acres and is comprised of many sites related to MLK. Some of which are his childhood home and the Ebenezer Baptist Church, where MLK was a co-pastor whith his father. Guests can walk down Freedom Road, explore the Visitors center, and marvel at the Civil Rights Walk of Fame.",
     picture: require("../public/locations/mlk-park.jpeg"),
   },
   {
@@ -28,7 +28,7 @@ const locations = [
     name: "Jimmy Carter Presidential Library and Museum",
     website: "https://www.jimmycarterlibrary.gov/",
     description:
-      "The Jimmy Carter library and museum located in Freedom Park contains hundreds of documents and materials related to Carter's presidency, an influential president during this time. Carter promoted and expanded human and civil rights and aimed to eleminate segragation. ",
+      "The Jimmy Carter Presidential Library and Museum located in Freedom Park contains hundreds of documents and materials related to Carter's presidency, an influential president during this time. Carter promoted and expanded human and civil rights and aimed to eliminate segragation. ",
     picture: require("../public/locations/the-carter-center.jpeg"),
   },
   {
@@ -44,7 +44,7 @@ const locations = [
     name: "Herndon Home Museum",
     website: "https://www.theherndonfoundation.org/",
     description:
-      "Home of Alonzo Herndon, a former slave raised in a sharecropping family after the Civil War and the Georgia's first Black millionare. The house was made in 1910 and is the only privately owned African-American house museum in the country.",
+      "Home of Alonzo Herndon, a former slave raised in a sharecropping family after the Civil War and Georgia's first Black millionare. The house was made in 1910 and is the only privately owned African-American house museum in the country.",
     picture: require("../public/locations/herndon-home.jpeg"),
   },
   {
@@ -52,7 +52,7 @@ const locations = [
     name: "Birth Home of Martin Luther King, Jr",
     website: "https://www.nps.gov/malu/index.htm",
     description:
-      "Martin Luther King was born and lived here until he was 12 years old. The house is open for daily tours and visitors can learn about MLK's life.",
+      "Martin Luther King was born and lived here until he was 12 years old. The house is open for daily tours, and visitors can learn about MLK's life.",
     picture: require("../public/locations/mlk-birth-home.jpeg"),
   },
   {
@@ -61,7 +61,7 @@ const locations = [
     website:
       "https://www.gsa.gov/historic-buildings/elbert-p-tuttle-us-court-appeals-building-atlanta-ga",
     description:
-      "A National Historic Landmark which held the Brown v. Board of Education case and implemented nationally significant civil rights legislation. Additioanlly it was the location of the Fifth Circtuit Court of Appeals and named after Elbert Parr Tuttle who administered the court in the 1960s and authored significant court opinions that overcame massive resistance in school desegregation and voting rights.",
+      "A National Historical Landmark which held the Brown v. Board of Education case and implemented nationally significant civil rights legislation. Additionally, it was the location of the Fifth Circtuit Court of Appeals and named after Elbert Parr Tuttle who administered the court in the 1960s and authored significant court opinions that overcame massive resistance in school desegregation and voting rights.",
     picture: require("../public/locations/court-of-appeals.jpeg"),
   },
 ];
