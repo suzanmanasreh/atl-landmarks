@@ -46,7 +46,7 @@ export default function Home() {
                 </div>
                 <div>
                   <a href={place.website}>
-                    <p className="font-semibold text-xl text-stone-900">
+                    <p className="font-semibold text-xl text-red-800 hover:text-red-600">
                       {place.name}
                     </p>
                   </a>
