@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import icon from "../public/gh-icon.png";
 import atl from "../public/atl-icon.png";
 import Image from "next/image";
 

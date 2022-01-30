@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/d51097c9-eb0e-4da7-9ab7-796d1986c425/resourceGroups/hackathon/providers/Microsoft.Web/sites/atlcivilrightslandmarks",
+  "appService.deploySubpath": "."
+}
