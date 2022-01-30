@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Footer from "../components/Footer";
 import locations from "../data/locations.js";
+import image from "../public/locations/apex-museum.jpeg";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           property="og:description"
           content="Atlanta Civil Rights Landmarks Map and Description"
         />
+        <meta property="og:image" content={image} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
