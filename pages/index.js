@@ -33,6 +33,7 @@ export default function Home() {
         </h1>
         <div className="mt-3">
           <iframe
+            title="google map"
             src="https://www.google.com/maps/d/u/0/embed?mid=1qena5y5E7NRpI_8FIgqFXbBmwgXwpCNI&ehbc=2E312F"
             width="100%"
             height="480"
