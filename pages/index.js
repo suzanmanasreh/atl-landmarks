@@ -24,6 +24,7 @@ export default function Home() {
           content="Atlanta Civil Rights Landmarks Map and Description"
         />
         <meta property="og:image" content={image} />
+        <meta name="twitter:card" content="summary_large_image"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
