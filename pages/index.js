@@ -1,21 +1,8 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
-
-const locations = [
-  {
-    id: 1,
-    name: "APEX Museum",
-    description: "enter description here",
-    picture: require("../public/locations/apex-museum.jpeg"),
-  },
-  {
-    id: 2,
-    name: "Center for Civil and Human Rights",
-    description: "enter description here",
-    picture: require("../public/locations/center-for-civil-and-human-rights.jpeg"),
-  },
-];
+import Footer from "../components/Footer";
+import locations from "../data/locations.js";
 
 export default function Home() {
   return (
@@ -43,24 +30,27 @@ export default function Home() {
         <div className="relative bg-red-800">
           <div className="w-full border-2 border-red-800"></div>
         </div>
-        <div className="mt-4">
+        <div className=" mt-4">
           {locations.map((place) => {
             return (
               <div key={place.id} className="md:flex mb-7 text-base">
-                <div className="mr-5">
+                <div className="md:flex-none mr-5">
                   <Image
                     src={place.picture}
                     objectFit="cover"
                     alt={place.name}
                     width={250}
                     height={150}
+                    className=""
                   />
                 </div>
                 <div>
-                  <p className="font-semibold text-xl text-stone-900">
-                    {place.name}
-                  </p>
-                  <p className="font-medium text-base text-stone-900">
+                  <a href={place.website}>
+                    <p className="font-semibold text-xl text-stone-900">
+                      {place.name}
+                    </p>
+                  </a>
+                  <p className="font-medium text-sm text-stone-900">
                     {place.description}
                   </p>
                 </div>
@@ -69,8 +59,7 @@ export default function Home() {
           })}
         </div>
       </main>
-
-      <footer></footer>
+      <Footer />
     </div>
   );
 }

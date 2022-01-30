@@ -11,8 +11,10 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+}
+
+.footerlink {
+  @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-700;
 }
 
 * {
