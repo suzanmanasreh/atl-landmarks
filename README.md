@@ -1,6 +1,6 @@
 # Atlanta Landmarks Webapp
 
-This is our submission for Techtogether Atlants 22'. It's deployed [here](https://civilrightslandmarks-atl.azurewebsites.net/).
+This is our submission for Techtogether Atlanta 22'. It's deployed [here](https://civilrightslandmarks-atl.azurewebsites.net/).
 
 ## Installation Instructions
 
